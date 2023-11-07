@@ -14,7 +14,7 @@ hs.loadSpoon("SpoonInstall")
 spoon.SpoonInstall.repos.MultiShade = {
     url = "https://github.com/brennydoogles/hammerspoon-multishade",
     desc = "MultiShade spoon repository",
-    branch = "master",
+    branch = "main",
 }
 
 spoon.SpoonInstall:andUse("MultiShade", { repo = "MultiShade" })

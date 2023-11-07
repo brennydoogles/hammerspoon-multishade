@@ -2,7 +2,7 @@
 ---
 --- Creates a semitransparent overlay to reduce screen brightness.
 ---
---- Download: https://github.com/brennydoogles/hammerspoon-multishade/Spoons/raw/master/Spoons/
+--- Download: https://github.com/brennydoogles/hammerspoon-multishade/Spoons/raw/main/Spoons/
 
 local obj = {}
 obj.__index = obj
