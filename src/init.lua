@@ -9,7 +9,7 @@ obj.__index = obj
 
 -- Metadata
 obj.name = "MultiShade"
-obj.version = "0.1"
+obj.version = "1.0"
 obj.author = "Brendon Dugan"
 obj.homepage = "https://github.com/brennydoogles/hammerspoon-multishade"
 obj.license = "Apache 2.0 - http://www.apache.org/licenses/"
