@@ -49,9 +49,9 @@ obj.shades = {}
 --- Returns:
 ---  * None
 function obj:init()
-    self.testMenuIcon = hs.menubar.new()
-    self.testMenuIcon:setIcon(obj.defaultIcon)
-    self.testMenuIcon:setTooltip("TestSpoon")
+    self.menuIcon = hs.menubar.new()
+    self.menuIcon:setIcon(obj.defaultIcon)
+    self.menuIcon:setTooltip("MultiShade")
     self.menuTable = {}
 
     for i, v in ipairs(hs.screen.allScreens()) do
@@ -144,7 +144,7 @@ function obj:init()
             },
         }
     }
-    self.testMenuIcon:setMenu(self.menuTable)
+    self.menuIcon:setMenu(self.menuTable)
 end
 
 function obj:start()
