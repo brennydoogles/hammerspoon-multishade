@@ -38,6 +38,7 @@ obj.defaultIcon = "ASCII:" ..
         "C.........2........C\n"
 
 obj.shades = {}
+obj.menuIcon = hs.menubar.new()
 
 --- Shade:init()
 --- Method
@@ -49,7 +50,6 @@ obj.shades = {}
 --- Returns:
 ---  * None
 function obj:init()
-    self.menuIcon = hs.menubar.new()
     self.menuIcon:setIcon(obj.defaultIcon)
     self.menuIcon:setTooltip("MultiShade")
     self.menuTable = {}
